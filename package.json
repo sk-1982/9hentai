@@ -1,0 +1,36 @@
+{
+  "name": "9hentai",
+  "version": "1.0.0",
+  "description": "API for accessing 9hentai.com",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "hentai",
+    "9hentai"
+  ],
+  "author": "sk-1982",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.0.5",
+    "@types/node-fetch": "^2.5.7",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "node-fetch": "^2.6.0",
+    "tslib": "^2.0.0"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}

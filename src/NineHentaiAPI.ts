@@ -147,7 +147,7 @@ export class NineHentaiAPI {
                 page: page,
                 pages: { range: [0, 2000] },
                 sort: APISortOrder.NEWEST,
-                text: book.results.title,
+                text: `"${book.results.title}"`,
                 tag: {
                     items: { excluded: [], included: [] }
                 }

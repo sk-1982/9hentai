@@ -49,7 +49,7 @@ export class NineHentaiAPI {
     private static tags: Promise<APITag[][]>[] = [];
 
     public static async get_all_tags(): Promise<APITag[]> {
-        return (await Promise.all(NineHentaiAPI.tags)).flat(Infinity);
+        return (await Promise.all(NineHentaiAPI.tags)).flat(Infinity) as APITag[];
     }
 
     constructor(private options?: NineHentaiOptions) {
@@ -242,7 +242,7 @@ export class NineHentaiAPI {
             let query = query_or_options;
 
             if (options?.auto_tag ?? true) {
-                const tags: APITag[] = (await Promise.all(NineHentaiAPI.tags)).flat(Infinity);
+                const tags = (await Promise.all(NineHentaiAPI.tags)).flat(Infinity) as APITag[];
                 let output_tags = [];
                 [ query, output_tags ] = this.get_tags_from_search(query, tags);
 

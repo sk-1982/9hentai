@@ -23,12 +23,15 @@
   "devDependencies": {
     "@types/node": "^14.0.5",
     "@types/node-fetch": "^2.5.7",
+    "@types/xtend": "^4.0.3",
     "typescript": "^3.9.3"
   },
   "dependencies": {
     "abort-controller": "^3.0.0",
+    "escape-string-regexp": "^4.0.0",
     "node-fetch": "^2.6.0",
-    "tslib": "^2.0.0"
+    "tslib": "^2.0.0",
+    "xtend": "^4.0.2"
   },
   "files": [
     "lib/**/*"

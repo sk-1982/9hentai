@@ -11,8 +11,8 @@ export type APIBook = {
         }
     })[],
     title: string,
-    total_downloaded: number,
-    total_favorited: number,
+    total_download: number,
+    total_favorite: number,
     total_page: number,
     total_view: number
 }

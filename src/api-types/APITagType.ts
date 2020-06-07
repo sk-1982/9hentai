@@ -1,4 +1,4 @@
-export const enum APITagType {
+export enum APITagType {
     TAG = 1,
     GROUP = 2,
     PARODY = 3,

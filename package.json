@@ -12,7 +12,8 @@
     "postversion": "git push && git push --tags"
   },
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/sk-1982/9hentai.git"
   },
   "keywords": [
     "hentai",

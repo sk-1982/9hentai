@@ -142,7 +142,9 @@ export enum APITagType {
     GROUP = 2,
     PARODY = 3,
     ARTIST = 4,
-    CHARACTER = 5
+    CHARACTER = 5,
+    CATEGORY = 6,
+    LANGUAGE = 7
 }
 ```
 

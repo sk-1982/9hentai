@@ -111,7 +111,8 @@ export class NineHentaiAPI {
             method: 'POST',
             body: JSON.stringify(request),
             headers: {
-                'content-type': 'application/json;charset=UTF-8'
+                'content-type': 'application/json;charset=UTF-8',
+                'accept': 'application/json'
             },
             signal: controller.signal
         }));
@@ -174,7 +175,8 @@ export class NineHentaiAPI {
             method: 'POST',
             body: `{"id":${id}}`,
             headers: {
-                'content-type': 'application/json;charset=UTF-8'
+                'content-type': 'application/json;charset=UTF-8',
+                'accept': 'application/json'
             },
             signal: controller.signal
         }));
@@ -192,7 +194,8 @@ export class NineHentaiAPI {
             method: 'POST',
             body: JSON.stringify({ search: request }),
             headers: {
-                'content-type': 'application/json;charset=UTF-8'
+                'content-type': 'application/json;charset=UTF-8',
+                'accept': 'application/json'
             },
             signal: controller.signal
         }));

@@ -3,8 +3,8 @@ A NodeJS module written in TypeScript to access 9hentai's undocumented API.
 
 # Usage
 ```js
-const { NineAnimeAPI } = require('9anime');
-const api = new NineAnimeAPI();
+const { NineHentaiAPI } = require('9hentai');
+const api = new NineHentaiAPI();
 
 const search_results = await api.search('query');
 
